@@ -34,6 +34,7 @@ h1 {
     font-size: xx-large;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
+    background-color: blanchedalmond;
 }
 
 h2, h3 {
@@ -71,6 +72,10 @@ img {
 
 ol {
     border: 2px dashed blue;
+}
+
+ul {
+    border: 3px dotted darkviolet;
 }
 
 li {
@@ -132,6 +137,7 @@ nav a:hover, nav a:focus {
     background-color: blanchedalmond;
 }
 
+
 @media (max-width: 767px) {
 .main{
       display: none;
@@ -143,3 +149,4 @@ nav a:hover, nav a:focus {
         display: none
     }
 }
+
